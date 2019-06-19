@@ -13,7 +13,7 @@ int main(){
     printf("c3 = (%8.4f %8.4f )\n", c3.real, c3.imag);
 }
        
-cnum c_times(cnum *c1, cnum *c2){
+cnum c_times(cnum c1, cnum c2){
     cnum c3;
     c3.real = c1.real*c2.real - c1.imag*c2.imag ;
     c3.imag = c1.imag*c2.real + c2.imag*c1.real ;
